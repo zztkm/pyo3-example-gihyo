@@ -35,3 +35,8 @@ rye は仮想環境 `.venv` に pip をインストールしないので、自�
 現状は、自分で stub files を作成するのが一番簡単なようだ。(参照: `strcounter/strcounter/strcounter.pyi`)
 - [Typing and IDE hints for you Python package](https://pyo3.rs/v0.19.2/python_typing_hintsa)
 - [PEP 484 – Type Hints | Stub Files](https://peps.python.org/pep-0484/#stub-files)
+
+## TODO
+
+- [ ] pip-path を使うようにする
+    - refs: https://github.com/PyO3/maturin/pull/1753
