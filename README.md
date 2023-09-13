@@ -9,10 +9,21 @@ https://gihyo.jp/article/2023/07/monthly-python-2307
 
 ## 実行方法
 
-仮想環境を activate しておく。
+仮想環境を activate しておく
 ```bash
 rye sync
 source .venv/bin/activate
+```
+
+strcounter をビルドする
+```bash
+cd strcounter
+make prod
+```
+
+簡易ベンチマークを実行
+```bash
+python benchmark.py
 ```
 
 ## Note
